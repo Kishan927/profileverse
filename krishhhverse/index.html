@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#11120f" />
+  <meta name="description" content="The personal portfolio of Kishan Yadav — student, aspiring developer, athlete and lifelong learner." />
+  <title>KRISHHHVERSE — Kishan Yadav</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="wordmark" href="#home" aria-label="KRISHHHVERSE home">K<span>V</span><i>.</i></a>
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#skills">Capabilities</a>
+      <a href="#work">Selected work</a>
+      <a href="#journey">Journey</a>
+    </nav>
+    <a class="top-cta" href="#contact">Let's connect <span>↗</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+  </header>
+
+  <main>
+    <section class="hero section-shell" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow reveal"><span class="live-dot"></span> PERSONAL SPACE / EST. 2000s</div>
+        <p class="hero-pretitle reveal">A little bit of everything. Always becoming.</p>
+        <h1 class="hero-title reveal">KISHAN<br><span>YADAV</span><b class="hero-star">✳</b></h1>
+        <div class="hero-bottom reveal">
+          <p class="hero-statement">Curious by nature.<br><em>Driven by growth.</em></p>
+          <div class="hero-meta">
+            <span>STUDENT</span><span>ASPIRING DEVELOPER</span><span>ATHLETE</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-art reveal" aria-label="Profile portrait placeholder and creative orbit graphic">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="orbit-dot dot-one"></div><div class="orbit-dot dot-two"></div>
+        <div class="portrait-frame">
+          <img id="profileImage" src="assets/profile.jpg" alt="Portrait of Kishan Yadav" />
+          <div class="portrait-fallback" id="portraitFallback"><span>KY</span><small>YOUR PHOTO<br>GOES HERE</small></div>
+        </div>
+        <div class="art-sticker sticker-top">IN PROGRESS <span>↗</span></div>
+        <div class="art-sticker sticker-bottom"><span class="sticker-star">✳</span> NEVER ONE LABEL.</div>
+        <div class="art-index">01 / 05</div>
+      </div>
+      <a class="scroll-cue" href="#about"><span></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <div class="marquee" aria-hidden="true"><div class="marquee-track"><span>LEARN</span><i>✳</i><span>BUILD</span><i>✳</i><span>COMPETE</span><i>✳</i><span>REFLECT</span><i>✳</i><span>REPEAT</span><i>✳</i><span>LEARN</span><i>✳</i><span>BUILD</span><i>✳</i><span>COMPETE</span><i>✳</i><span>REFLECT</span><i>✳</i><span>REPEAT</span><i>✳</i></div></div>
+
+    <section class="section-shell about-section" id="about">
+      <div class="section-kicker reveal"><span>01</span> / THE PERSON BEHIND THE SCREEN</div>
+      <div class="about-grid">
+        <h2 class="section-heading reveal">Not here to fit<br>into <span>one box.</span></h2>
+        <div class="about-copy reveal">
+          <p class="lead">I'm <strong>Kishan Yadav</strong> — a student, curious mind and lifelong learner exploring the space between technology, sport, creativity and ideas.</p>
+          <p>I enjoy discovering new things and finding ways to bring what I learn into real life. From writing code and experimenting with AI to athletics, travel, philosophy and creative expression, I like staying open to different paths.</p>
+          <p>I'm still figuring things out. The goal now is not just to start more things, but to stay consistent, go deeper and turn learning into genuine mastery.</p>
+          <div class="signature">— KRISHHH <span>✳</span></div>
+        </div>
+      </div>
+      <div class="about-facts reveal">
+        <div><span class="fact-number">01</span><span class="fact-label">Curiosity<br>over comfort</span></div>
+        <div><span class="fact-number">02</span><span class="fact-label">Learning<br>by doing</span></div>
+        <div><span class="fact-number">03</span><span class="fact-label">Integrity<br>above everything</span></div>
+      </div>
+    </section>
+
+    <section class="focus-section">
+      <div class="section-shell">
+        <div class="section-kicker reveal"><span>02</span> / MANY INTERESTS, ONE JOURNEY</div>
+        <div class="focus-heading-row reveal"><h2 class="section-heading">My world<br>has <span>layers.</span></h2><p>Different interests. Shared curiosity.<br>One person learning to connect the dots.</p></div>
+        <div class="focus-grid">
+          <article class="focus-card focus-tech reveal"><div class="card-topline"><span>01 / DIGITAL</span><span>⌘</span></div><div class="focus-icon">⌘</div><h3>Technology<br>& building</h3><p>Exploring code, software, AI tools and ideas that can become useful products.</p><span class="focus-arrow">↗</span></article>
+          <article class="focus-card focus-sport reveal"><div class="card-topline"><span>02 / PHYSICAL</span><span>↗</span></div><div class="focus-icon">✳</div><h3>Sports<br>& discipline</h3><p>Athletics and yoga taught me about effort, practice, resilience and showing up.</p><span class="focus-arrow">↗</span></article>
+          <article class="focus-card focus-mind reveal"><div class="card-topline"><span>03 / INNER</span><span>◌</span></div><div class="focus-icon">◌</div><h3>Philosophy<br>& psychology</h3><p>Reading, listening and questioning how people think, behave and grow.</p><span class="focus-arrow">↗</span></article>
+          <article class="focus-card focus-create reveal"><div class="card-topline"><span>04 / CREATIVE</span><span>✎</span></div><div class="focus-icon">✎</div><h3>Stories<br>& expression</h3><p>Poetry, shayari, storytelling, music and learning the language of visuals.</p><span class="focus-arrow">↗</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-shell skills-section" id="skills">
+      <div class="section-kicker reveal"><span>03</span> / TOOLS IN MY BACKPACK</div>
+      <div class="skills-head reveal"><h2 class="section-heading">Skills &<br><span>curiosities.</span></h2><p>A snapshot of what I'm learning, using and exploring. Levels are intentionally honest — growth is ongoing.</p></div>
+      <div class="filter-row reveal" role="group" aria-label="Filter skills">
+        <button class="filter-btn active" data-filter="all">All</button><button class="filter-btn" data-filter="tech">Technology</button><button class="filter-btn" data-filter="creative">Creative</button><button class="filter-btn" data-filter="other">Beyond</button>
+      </div>
+      <div class="skills-grid" id="skillsGrid">
+        <article class="skill-card reveal" data-category="tech"><span class="skill-symbol">{ }</span><div><h3>HTML & CSS</h3><p>Foundational / hands-on</p></div><span class="skill-level">BASICS</span></article>
+        <article class="skill-card reveal" data-category="tech"><span class="skill-symbol">Py</span><div><h3>Python</h3><p>Foundational / hands-on</p></div><span class="skill-level">BASICS</span></article>
+        <article class="skill-card reveal" data-category="tech"><span class="skill-symbol">Jv</span><div><h3>Java</h3><p>Currently learning</p></div><span class="skill-level learning">LEARNING</span></article>
+        <article class="skill-card reveal" data-category="tech"><span class="skill-symbol">✳</span><div><h3>AI tools</h3><p>Practical use & experimentation</p></div><span class="skill-level">EXPLORING</span></article>
+        <article class="skill-card reveal" data-category="tech"><span class="skill-symbol">⌘</span><div><h3>VS Code & GitHub</h3><p>Developer tools</p></div><span class="skill-level">USING</span></article>
+        <article class="skill-card reveal" data-category="tech"><span class="skill-symbol">▦</span><div><h3>Excel</h3><p>Productivity & spreadsheets</p></div><span class="skill-level">USING</span></article>
+        <article class="skill-card reveal" data-category="creative"><span class="skill-symbol">▶</span><div><h3>Video editing</h3><p>Phone & laptop</p></div><span class="skill-level learning">LEARNING</span></article>
+        <article class="skill-card reveal" data-category="creative"><span class="skill-symbol">✎</span><div><h3>Writing & poetry</h3><p>Shayari, stories, creative writing</p></div><span class="skill-level">PRACTICING</span></article>
+        <article class="skill-card reveal" data-category="creative"><span class="skill-symbol">◈</span><div><h3>CapCut</h3><p>Visual editing tool</p></div><span class="skill-level">USING</span></article>
+        <article class="skill-card reveal" data-category="other"><span class="skill-symbol">◎</span><div><h3>Communication</h3><p>Continuously improving</p></div><span class="skill-level learning">GROWING</span></article>
+        <article class="skill-card reveal" data-category="other"><span class="skill-symbol">↗</span><div><h3>Problem solving</h3><p>Learning through practice</p></div><span class="skill-level learning">GROWING</span></article>
+        <article class="skill-card reveal" data-category="other"><span class="skill-symbol">⌁</span><div><h3>Research & learning</h3><p>Technology, ideas and people</p></div><span class="skill-level">EXPLORING</span></article>
+      </div>
+      <p class="skills-note reveal"><span>✳</span> I prefer honest progress over impressive-sounding labels.</p>
+    </section>
+
+    <section class="work-section" id="work">
+      <div class="section-shell">
+        <div class="section-kicker reveal"><span>04</span> / IDEAS TURNING INTO WORK</div>
+        <div class="work-title-row reveal"><h2 class="section-heading">Selected<br><span>work.</span></h2><span class="work-count">01 PROJECT<br>FEATURED</span></div>
+        <article class="project-card reveal">
+          <div class="project-visual"><div class="project-window"><div class="window-bar"><i></i><i></i><i></i><span>VISITOR / ENTRY SYSTEM</span></div><div class="mock-dashboard"><div class="mock-side"><b>V.</b><i></i><i></i><i></i><i></i></div><div class="mock-main"><small>CAMPUS ACCESS</small><strong>Visitor<br>Management</strong><div class="mock-line"></div><div class="mock-fields"><span>Visitor details</span><span>Purpose of visit</span></div><div class="mock-token">E-TOKEN <b>#A208</b></div></div></div></div><div class="project-stamp">CAPSTONE<br>CONCEPT <span>↗</span></div></div>
+          <div class="project-info"><div class="project-meta"><span>CAPSTONE PROJECT</span><span>TEAM COLLABORATION</span></div><h3>Visitor<br>Management System</h3><p>A college-entry concept designed to make the visitor experience smoother. Parents and guardians can submit their details through a form and receive an e-token, helping reduce unnecessary waiting at the campus entrance.</p><div class="contribution-box"><span>MY CONTRIBUTION</span><strong>Planning & documentation</strong><p>Worked with a friend as part of a team. The project used a mixed technology stack; exact tools will be added after confirmation.</p></div><div class="project-tags"><span>USER FLOW</span><span>DOCUMENTATION</span><span>TEAMWORK</span></div></div>
+        </article>
+        <div class="work-footnote reveal">More work will appear here as I build, experiment and ship.</div>
+      </div>
+    </section>
+
+    <section class="section-shell journey-section" id="journey">
+      <div class="section-kicker reveal"><span>05</span> / A FEW MILESTONES</div>
+      <div class="journey-head reveal"><h2 class="section-heading">The journey<br><span>so far.</span></h2><p>Not a finished story. Just a record of the steps, disciplines and experiences that shaped me.</p></div>
+      <div class="timeline">
+        <article class="timeline-item reveal"><div class="timeline-year">2018</div><div class="timeline-marker"><i></i></div><div class="timeline-content"><span class="timeline-type">SPORTS / YOGA</span><h3>National-level participation</h3><p>Participated at the national level in Yoga.</p></div><div class="timeline-side">01</div></article>
+        <article class="timeline-item reveal"><div class="timeline-year">2024</div><div class="timeline-marker"><i></i></div><div class="timeline-content"><span class="timeline-type">SPORTS / ATHLETICS</span><h3>National-level athlete</h3><p>National-level participation in Athletics, with Long Jump as my event.</p></div><div class="timeline-side">02</div></article>
+        <article class="timeline-item reveal"><div class="timeline-year">KVS</div><div class="timeline-marker"><i></i></div><div class="timeline-content"><span class="timeline-type">REGIONAL SPORTS MEET</span><h3>Gold medal achievements</h3><p>Gold medalist in Yoga and Athletics at the KVS Regional Sports Meet. Year to be added.</p></div><div class="timeline-side">03</div></article>
+        <article class="timeline-item reveal"><div class="timeline-year">2025—28</div><div class="timeline-marker"><i></i></div><div class="timeline-content"><span class="timeline-type">EDUCATION</span><h3>B.Sc. Computer Science & Data Analytics</h3><p>IIT Patna · Hybrid course · Currently pursuing.</p></div><div class="timeline-side">04</div></article>
+        <article class="timeline-item reveal"><div class="timeline-year">NOW</div><div class="timeline-marker"><i></i></div><div class="timeline-content"><span class="timeline-type">INTERNSHIP / LEARNING</span><h3>Chipi Technology</h3><p>Internship learning and training, alongside Java learning, coding practice and SSC preparation.</p></div><div class="timeline-side">05</div></article>
+      </div>
+      <div class="cert-note reveal"><span class="cert-icon">✳</span><div><strong>Courses & certificates</strong><p>Enrolled in multiple online certified courses. Specific course and certificate names will be added once confirmed.</p></div><span class="cert-arrow">↗</span></div>
+    </section>
+
+    <section class="now-section">
+      <div class="section-shell now-grid">
+        <div class="now-intro reveal"><div class="section-kicker"><span>06</span> / CURRENTLY IN MOTION</div><h2 class="section-heading">What I'm<br><span>working on.</span></h2><p>A few things getting my attention in this chapter.</p></div>
+        <div class="now-list">
+          <div class="now-item reveal"><span class="now-num">01</span><div><h3>Java & coding</h3><p>Strengthening programming foundations and building projects.</p></div><span class="now-status">ACTIVE</span></div>
+          <div class="now-item reveal"><span class="now-num">02</span><div><h3>SSC preparation</h3><p>Preparing for competitive exams alongside my tech learning.</p></div><span class="now-status">ACTIVE</span></div>
+          <div class="now-item reveal"><span class="now-num">03</span><div><h3>Video editing</h3><p>Practicing edits on both phone and laptop.</p></div><span class="now-status">LEARNING</span></div>
+          <div class="now-item reveal"><span class="now-num">04</span><div><h3>Time management</h3><p>Building a sustainable routine for multiple priorities.</p></div><span class="now-status">FOCUS</span></div>
+          <div class="now-item reveal"><span class="now-num">05</span><div><h3>Going deeper</h3><p>Turning broad interests into consistent, focused practice.</p></div><span class="now-status">ONGOING</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-shell beyond-section">
+      <div class="section-kicker reveal"><span>07</span> / OUTSIDE THE CHECKLIST</div>
+      <div class="beyond-grid">
+        <h2 class="section-heading reveal">Life is more<br>than <span>work.</span></h2>
+        <div class="beyond-content reveal"><p>When I'm away from a screen, I like reading books, listening to music, travelling, exploring self-improvement, and getting lost in philosophical and psychological questions.</p><div class="interest-cloud"><span>BOOKS</span><span>MUSIC</span><span>TRAVEL</span><span>SELF-GROWTH</span><span>PSYCHOLOGY</span><span>PHILOSOPHY</span><span>POETRY</span><span>SPORTS</span></div><div class="inspiration"><small>CHARACTERS I DRAW INSPIRATION FROM</small><strong>Thor's courage. Captain America's integrity.<br>Tony Stark's curiosity. Spider-Man's adaptability.</strong></div></div>
+      </div>
+    </section>
+
+    <section class="manifesto-section">
+      <div class="section-shell manifesto-inner reveal"><span class="manifesto-mark">“</span><div class="manifesto-label">A PERSONAL CODE</div><h2>Better to be a wolf<br>everyone hates than a donkey<br>everyone rides.</h2><div class="manifesto-line"></div><p>INTEGRITY ABOVE EVERYTHING.</p><span class="manifesto-star">✳</span></div>
+    </section>
+
+    <section class="contact-section section-shell" id="contact">
+      <div class="section-kicker reveal"><span>08</span> / OPEN TO GOOD CONVERSATIONS</div>
+      <div class="contact-grid reveal"><div><h2 class="section-heading">Have an idea?<br><span>Let's talk.</span></h2><p>Always open to learning, collaborating and connecting with people who are building something meaningful.</p></div><div class="contact-side"><span class="contact-small">FIND ME AROUND THE INTERNET</span><a href="#contact" data-profile-link="email" class="social-link">Email <span>↗</span></a><a href="#contact" data-profile-link="github" class="social-link">GitHub <span>↗</span></a><a href="#contact" data-profile-link="linkedin" class="social-link">LinkedIn <span>↗</span></a><a href="#contact" data-profile-link="instagram" class="social-link">Instagram <span>↗</span></a><p class="contact-hint" id="contactHint">Add your public links in <code>script.js</code> to activate these.</p></div></div>
+    </section>
+  </main>
+
+  <footer class="footer section-shell"><a class="wordmark" href="#home">K<span>V</span><i>.</i></a><span>DESIGNED AS A WORK IN PROGRESS.</span><span>© <span id="yearNow"></span> KISHAN YADAV</span><a href="#home" class="back-top">BACK TO TOP ↑</a></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

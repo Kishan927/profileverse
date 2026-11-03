@@ -1,0 +1,2 @@
+Add your own portrait image to this folder and name it profile.jpg.
+The page will show this image automatically. Until then, it displays a KY initials placeholder.
